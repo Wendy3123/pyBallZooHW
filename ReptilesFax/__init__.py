@@ -18,5 +18,4 @@ def create_app():
     from . import reptiles
     app.register_blueprint(reptiles.bp)
     
-
     return app
